@@ -9,3 +9,4 @@ graph_x = np.linspace(-8,8,100)
 graph_y = graph_a*graph_x+graph_b
 plt.plot(graph_x,graph_y)
 plt.show()
+
