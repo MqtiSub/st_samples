@@ -7,6 +7,8 @@ graph_a = st.slider('coordinateOfA',-4,4,0)
 graph_b = st.slider('coordinateOfB',-4,4,0)
 graph_x = np.linspace(-8,8,100)
 graph_y = graph_a*graph_x+graph_b
+fig = plt.figure()
 plt.plot(graph_x,graph_y)
-plt.show()
+st.pyplot(fig)
+
 
