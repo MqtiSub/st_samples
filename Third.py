@@ -12,6 +12,6 @@ graph_y = graph_a*graph_x**3+graph_b*graph_x**2+graph_c*graph_x+graph_d
 plt.xlabel('x')  # 横軸のラベル
 plt.ylabel('y',  rotation=0)  # 縦軸のラベル
 fig = plt.figure()
-plt.grid
+plt.grid()
 plt.plot(graph_x,graph_y)
 st.pyplot(fig)
