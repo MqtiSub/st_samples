@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import math 
 import numpy as np
-st.title("Linear function")
+st.title("Cubic function")
 graph_a = st.slider('coordinateOfA',-4,4,0)
 graph_b = st.slider('coordinateOfB',-4,4,0)
 graph_c = st.slider('coordinateOfC',-4,4,0)
