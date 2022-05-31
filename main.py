@@ -2,7 +2,6 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import math 
 import numpy as np
-%matplotlib inline
 st.title("Linear function")
 graph_a = st.slider('coordinateOfA',-4,4,0)
 graph_b = st.slider('coordinateOfB',-4,4,0)
