@@ -13,5 +13,6 @@ plt.xlabel('x')  # 横軸のラベル
 plt.ylabel('y',  rotation=0)  # 縦軸のラベル
 plt.grid()  # グリッド（目盛り線）を表示
 fig = plt.figure()
+plt.gca().set_aspect('equal', adjustable='box') 
 plt.plot(graph_x,graph_y)
 st.pyplot(fig)
