@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+import streamlit as st
 import tkinter
 from tkinter import messagebox
 import random
